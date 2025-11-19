@@ -1,5 +1,6 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from django.contrib.auth import logout
+from django.contrib.auth.decorators import longin_required
 from .models import Item, category
 
 from .forms import SignupForm
