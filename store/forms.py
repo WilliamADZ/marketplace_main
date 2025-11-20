@@ -52,10 +52,10 @@ class SignupForm(UserCreationForm):
         }
     ))
 
-    class NewItemForm(forms.ModelForms):
-        class Meta:
-            model = Item
-            fields = ['category','name','description','price','image']
+class NewItemForm(forms.ModelForm):
+    class Meta:
+        model = Item
+        fields = ['category','name','description','price','image']
 
 
         widgets ={
