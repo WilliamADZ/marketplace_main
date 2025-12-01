@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-i(=13*uxjo(f=ikzua3uze4wxyyc*%t2@nn684k*q@+o9q8^2s
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['intermolecular-friarly-alani.ngrok-free.dev']
+ALLOWED_HOSTS = []
 
 LOGIN_URL = '/store/login/'
 LOGIN_REDIRECT_URL = '/'
